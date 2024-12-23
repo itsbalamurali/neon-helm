@@ -38,4 +38,4 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
 
       - name: Create Kind Cluster
-        uses: helm/kind-action@v1.8.0
+        uses: helm/kind-action@v1.12.0
